@@ -24,6 +24,7 @@ body {
 	font-family: var(--body-font);
 	line-height: 1.5;
 	background: var(--light-grayish-blue);
+	margin-top: 5vmax;
 }
 
 header, input {
@@ -194,7 +195,7 @@ main h2 {
 .cta {
 	margin-top: 7rem;
 	background: var(--desaturated-blue);
-	color: #f4f4f4;
+	color: var(--light-grayish-blue);
 	padding: 4em 2em;
 	text-align: center;
 }
@@ -206,4 +207,76 @@ main h2 {
 .cta input[type="email"] {
 	margin-bottom: .75em;
 	padding-left: 1em;
+}
+
+
+/* ==================
+	Footer
+=============== */
+footer {
+	background: var(--dark-blue);
+	color: #f4f4f4;
+	padding: 4em 2em 0;
+}
+
+.contact {
+	margin: 2em 0 4em;
+}
+
+.contact p {
+	margin-left: 1.2em;
+}
+
+.phone, .email {
+	display: flex;
+	align-items: center;
+}
+
+.email {
+	margin-top: 1em;
+}
+
+.left-links p + p,
+.right-links p + p {
+	margin-top: 1em;
+}
+
+.right-links {
+	margin-top: 3em;
+}
+
+.soc-med {
+	margin: 3em 0 2em;
+}
+
+.soc-med ul {
+	display: flex;
+	justify-content: center;
+}
+
+.soc-med li + li {
+	margin-left: 1em;
+}
+
+.soc-med a {
+	display: block;
+	width: 35px;
+	height: 35px;
+	border: 1px solid;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.facebook-link:hover {
+	color: #4867AA;
+}
+
+.twitter-link:hover {
+	color: #00ACED;
+}
+
+.instagram-link:hover {
+	color: #CB218B;
 }
