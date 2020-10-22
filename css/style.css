@@ -1,0 +1,54 @@
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Open Sans', sans-serif; */
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--dark-blue: hsl(243, 87%, 12%);
+	--desaturated-blue: hsl(238, 22%, 44%);
+	--bright-blue: hsl(224, 93%, 58%);
+	--cyan: hsl(170, 45%, 43%);
+	--light-grayish-blue: hsl(240, 75%, 98%);
+	--light-gray: hsl(0, 0%, 75%);
+	--body-font: 'Open Sans', sans-serif;
+	--header-font: 'Raleway', sans-serif;
+}
+
+body {
+	font-family: var(--body-font);
+}
+
+header, input {
+	font-family: var(--header-font);
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	display: inline;
+}
+
+nav li + li {
+	margin-left: 1.5em;
+}
