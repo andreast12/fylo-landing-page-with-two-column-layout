@@ -27,7 +27,8 @@ body {
 	margin-top: 5vmax;
 }
 
-header, input {
+header, input, h1, h2,
+h3, h4, h5, h6 {
 	font-family: var(--header-font);
 }
 
@@ -332,7 +333,8 @@ footer {
 	}
 
 	.hero h1 {
-		margin: 0
+		margin: 0;
+		font-size: 2rem;
 	}
 
 	.hero form {
@@ -379,6 +381,7 @@ footer {
 
 	main h2 {
 		margin: 0 0 2rem;
+		font-size: 1.8rem;
 	}
 
 	.see-more-container {
@@ -398,6 +401,10 @@ footer {
 		text-align: left;
 		display: grid;
 		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.cta h3 {
+		font-size: 1.5rem;
 	}
 
 	.cta p {
