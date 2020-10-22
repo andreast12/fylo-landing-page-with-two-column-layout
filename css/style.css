@@ -123,6 +123,7 @@ nav li + li {
 =============== */
 main h2 {
 	margin-top: 2.8em;
+	text-align: center;
 }
 
 .main-text > p {
@@ -175,4 +176,34 @@ main h2 {
 	border-radius: 50%;
 	float: left;
 	margin-right: 1em;
+}
+
+.testimonial h5 {
+	line-height: 1;
+	margin-top: 2.2em;
+}
+
+.testimonial small {
+	font-size: .7rem;
+}
+
+
+/* ==================
+	CTA
+=============== */
+.cta {
+	margin-top: 7rem;
+	background: var(--desaturated-blue);
+	color: #f4f4f4;
+	padding: 4em 2em;
+	text-align: center;
+}
+
+.cta p {
+	margin: 1.2em 0 2em;
+}
+
+.cta input[type="email"] {
+	margin-bottom: .75em;
+	padding-left: 1em;
 }
