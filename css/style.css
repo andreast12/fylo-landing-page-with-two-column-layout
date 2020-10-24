@@ -23,7 +23,6 @@
 body {
 	font-family: var(--body-font);
 	line-height: 1.5;
-	background: var(--light-grayish-blue);
 	margin-top: 5vmax;
 }
 
@@ -98,8 +97,8 @@ nav a {
 	color: #999;
 }
 
-nav a:hover,
-nav a:focus {
+.active,
+nav a:hover {
 	color: inherit;
 }
 
@@ -108,7 +107,7 @@ nav a:focus {
 	Hero
 =============== */
 .hero {
-	margin: 7rem 0 15rem;
+	margin: 6rem 0 8rem;
 }
 
 .hero-text {
@@ -132,6 +131,13 @@ nav a:focus {
 /* ==================
 	Main
 =============== */
+main {
+	padding: 8rem 0 7rem;
+	background: no-repeat top center;
+	background-image: url('../images/bg-curve-mobile.svg');
+	background-size: cover;
+}
+
 main h2 {
 	margin-top: 2.8em;
 	text-align: center;
@@ -203,7 +209,6 @@ main h2 {
 	CTA
 =============== */
 .cta {
-	margin-top: 7rem;
 	background: var(--desaturated-blue);
 	color: var(--light-grayish-blue);
 	padding: 4em 2em;
@@ -264,7 +269,7 @@ footer {
 }
 
 .soc-med {
-	margin: 3em 0 2em;
+	margin: 3em 0;
 }
 
 .soc-med ul {
@@ -371,6 +376,10 @@ footer {
 	/* ==================
 		Main
 	=============== */
+	main {
+		background-image: url('../images/bg-curve-desktop.svg');
+	}
+
 	main .container {
 		display: flex;
 	}
