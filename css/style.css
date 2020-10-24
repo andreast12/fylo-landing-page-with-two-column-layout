@@ -94,12 +94,21 @@ nav li + li {
 	margin-left: 1rem;
 }
 
+nav a {
+	color: #999;
+}
+
+nav a:hover,
+nav a:focus {
+	color: inherit;
+}
+
 
 /* ==================
 	Hero
 =============== */
 .hero {
-	margin: 7rem 0;
+	margin: 7rem 0 15rem;
 }
 
 .hero-text {
@@ -239,6 +248,10 @@ footer {
 
 .footer-links a {
 	display: block;
+}
+
+.footer-links a:hover {
+	color: #999;
 }
 
 .left-links a + a,
