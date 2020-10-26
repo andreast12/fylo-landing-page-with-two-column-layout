@@ -131,11 +131,14 @@ nav a:hover {
 /* ==================
 	Main
 =============== */
+.bg-curve img {
+	display: block;
+	width: 100%;
+}
+
 main {
-	padding: 8rem 0 7rem;
-	background: no-repeat top center;
-	background-image: url('../images/bg-curve-mobile.svg');
-	background-size: cover;
+	padding-bottom: 7rem;
+	background: #f8f8fe;
 }
 
 main h2 {
@@ -376,10 +379,6 @@ footer {
 	/* ==================
 		Main
 	=============== */
-	main {
-		background-image: url('../images/bg-curve-desktop.svg');
-	}
-
 	main .container {
 		display: flex;
 	}
